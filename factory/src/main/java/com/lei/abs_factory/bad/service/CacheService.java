@@ -1,4 +1,4 @@
-package com.lei.abs_factory.service;
+package com.lei.abs_factory.bad.service;
 
 import java.util.concurrent.TimeUnit;
 
