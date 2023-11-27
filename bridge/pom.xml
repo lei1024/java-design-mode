@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <!-- 项目描述 -->
-    <description>这是一个示例项目</description>
+    <description>桥接模式</description>
     <!-- 项目基本信息 -->
     <groupId>com.lei</groupId>
     <artifactId>bridge</artifactId>
