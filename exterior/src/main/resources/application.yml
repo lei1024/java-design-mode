@@ -1,0 +1,9 @@
+server:
+  port: 8989
+spring:
+  application:
+    name: helloworld-door
+itstack:
+  door:
+    enabled: true
+    userStr: 1001,aaaa,ccc #白名单用户ID，多个逗号隔开
