@@ -1,0 +1,16 @@
+package com.lei.scene;
+
+/**
+ * 模拟小客车摇号
+ *
+ * @author leijiahao
+ * @date 2023-12-19
+ */
+public class MinibusTargetService {
+
+    public String lottery(String uId) {
+        return Math.abs(uId.hashCode()) % 2 == 0 ? "恭喜你，编码".concat(uId)
+                                                                .concat("在本次摇号中签") : "很遗憾，编码".concat(uId)
+                                                                                                         .concat("在本次摇号未中签或摇号资格已过期");
+    }
+}
